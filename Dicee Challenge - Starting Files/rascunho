@@ -1,0 +1,11 @@
+function playDice(min, max) {
+    let rand = Math.random();
+    console.log(rand);
+    return (Math.floor(rand * (max - min + 1) + min));
+}
+
+    let min = 1;
+    let max = 6;
+
+    var p1 = playDice(min, max);
+    var p2 = playDice(min, max);
