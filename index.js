@@ -360,7 +360,7 @@ function BellBoy(name, age, hasWorkPermit, languages){
     this.age = age;
     this.hasWorkPermit = hasWorkPermit;
     this.languages = languages;
-    moveSuitcase: function() {
+    this.moveSuitcase = function() {
         alert('May I take your suitcase?');
         pickUpSuitcase();
         moveBy();
